@@ -1,0 +1,2 @@
+
+include $(TARGET_MAKE_DIRECTORY)/$(CONFIG_LIB).mk

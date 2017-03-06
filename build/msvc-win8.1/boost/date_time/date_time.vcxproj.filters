@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\boost\date_time\gregorian\date_generators.cpp">
+      <Filter>Source Files\gregorian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\boost\date_time\gregorian\gregorian_types.cpp">
+      <Filter>Source Files\gregorian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\boost\date_time\gregorian\greg_weekday.cpp">
+      <Filter>Source Files\gregorian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\boost\date_time\gregorian\greg_month.cpp">
+      <Filter>Source Files\gregorian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\boost\date_time\posix_time\posix_time_types.cpp">
+      <Filter>Source Files\posix time</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{142304d6-da02-43b7-92e9-e0a90f9e22c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gregorian">
+      <UniqueIdentifier>{3d40def3-97b8-487c-b7eb-881a80cf48bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\posix time">
+      <UniqueIdentifier>{6587d5fe-b71d-4bdb-b309-41007ab30138}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

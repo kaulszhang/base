@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\asio">
+      <UniqueIdentifier>{fbbd2557-0a44-47bd-935e-05f9f15e33e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\function">
+      <UniqueIdentifier>{fcfc27bc-5a57-450d-9d66-f7a6bc1ed446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\smart_ptr">
+      <UniqueIdentifier>{5b984479-8bfd-4dd6-a701-30bb04d4663a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread">
+      <UniqueIdentifier>{fdc42de5-ed24-404d-ba8f-35ff2a9a7375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bind">
+      <UniqueIdentifier>{7c583068-5a53-4f77-b155-8167c36cc5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{6f439a94-5823-434d-a723-8911ff471e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\date_time">
+      <UniqueIdentifier>{b8ce9291-9adf-4d27-9de4-42c5e1f3e579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{c1063de2-b309-428b-aa4d-45140fdc9df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\interprocess">
+      <UniqueIdentifier>{f343063b-c0fc-41a3-a437-eb884e0e2912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\asio\asio.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\asio\io_service.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\asio\resolver.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\asio\tcp.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\asio\timer.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\asio\udp.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\function\function.cpp">
+      <Filter>Source Files\function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\smart_ptr\shared_array.cpp">
+      <Filter>Source Files\smart_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\smart_ptr\shared_ptr.cpp">
+      <Filter>Source Files\smart_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\thread\condition_variable.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\thread\mutex.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\thread\thread.cpp">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\bind\bind.cpp">
+      <Filter>Source Files\bind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\filesystem\operations.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\filesystem\path.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\date_time\time.cpp">
+      <Filter>Source Files\date_time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\system\error_code.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\boost_test\interprocess\shared_memory_object.cpp">
+      <Filter>Source Files\interprocess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tools\boost_test\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

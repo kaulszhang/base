@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\protocol">
+      <UniqueIdentifier>{9a8f2a17-2017-4acf-a608-6594444f45ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protocol\http">
+      <UniqueIdentifier>{f0b460ed-568e-46a7-83b3-c6510b18abfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protocol\pptv">
+      <UniqueIdentifier>{194418c5-19d5-4f5f-a0b9-8b4d6412b57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protocol\rtsp">
+      <UniqueIdentifier>{c121cb77-4e4d-4f18-85a6-b9b284293fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protocol\mms">
+      <UniqueIdentifier>{dcb88b76-b666-42c0-938f-289877fdd96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dataview">
+      <UniqueIdentifier>{afef72f9-98b8-444e-8851-83e1627ce448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\daemon">
+      <UniqueIdentifier>{d6f15350-ca33-4697-b51c-f1e6241f2b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\daemon\detail">
+      <UniqueIdentifier>{ef452ea1-9e48-437d-9f35-95b6b2245286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stream">
+      <UniqueIdentifier>{8c46271f-e7ca-4cf5-96ff-c8ed81494f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\archive">
+      <UniqueIdentifier>{b4044d78-3f9c-4831-8a18-47ce8ad3da9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\serialization">
+      <UniqueIdentifier>{b432a54d-1e57-4094-bbb9-6422303b1a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\serialization\stl">
+      <UniqueIdentifier>{d3bd3d04-d131-4679-9544-0d0952e434bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocol">
+      <UniqueIdentifier>{1cd5b5b8-1cd1-465a-b6dd-ab54048a325b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocol\http">
+      <UniqueIdentifier>{56fa12f6-cfe7-4275-b6a7-f731b8ba7f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocol\pptv">
+      <UniqueIdentifier>{b867f0c6-9fda-428b-bebd-9e26b4468a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocol\rtsp">
+      <UniqueIdentifier>{49ea79ef-b0f8-4ee3-a4c8-11a294872e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocol\mms">
+      <UniqueIdentifier>{4c592575-3aff-4283-bef7-474b0d80d9be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\stream">
+      <UniqueIdentifier>{4ebdf438-4f78-4fc8-a981-207bd133f429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\stream\detail">
+      <UniqueIdentifier>{8e5f6038-bfb4-4ed6-9f53-02918330ee73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\smart_ptr">
+      <UniqueIdentifier>{606da231-6676-4644-b15d-3e4a69a590a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\buffers">
+      <UniqueIdentifier>{77e7d9a6-25d9-4e13-af0e-e1d448bd0fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dataview">
+      <UniqueIdentifier>{c988db84-875c-4d00-8629-7aa2a1f99f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\daemon">
+      <UniqueIdentifier>{1bae9b9b-6462-4d08-95a1-6aa6680b90dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\daemon\detail">
+      <UniqueIdentifier>{1241b62c-d130-4adf-8b6a-53c601bfc465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\daemon\impl">
+      <UniqueIdentifier>{f6293e89-5351-4775-a95b-776e0c82b3dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\util\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpClient.cpp">
+      <Filter>Source Files\protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpHead.cpp">
+      <Filter>Source Files\protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpPacket.cpp">
+      <Filter>Source Files\protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpProxy.cpp">
+      <Filter>Source Files\protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpProxy2.cpp">
+      <Filter>Source Files\protocol\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\pptv\Base64.cpp">
+      <Filter>Source Files\protocol\pptv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\pptv\TimeKey.cpp">
+      <Filter>Source Files\protocol\pptv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\pptv\Url.cpp">
+      <Filter>Source Files\protocol\pptv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\rtsp\RtspHead.cpp">
+      <Filter>Source Files\protocol\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\rtsp\RtspPacket.cpp">
+      <Filter>Source Files\protocol\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\rtsp\RtspServer.cpp">
+      <Filter>Source Files\protocol\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\mms\MmsHead.cpp">
+      <Filter>Source Files\protocol\mms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\mms\MmsPacket.cpp">
+      <Filter>Source Files\protocol\mms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\protocol\mms\MmsServer.cpp">
+      <Filter>Source Files\protocol\mms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\CatalogNode.cpp">
+      <Filter>Source Files\dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\CatalogReg.cpp">
+      <Filter>Source Files\dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\DataView.cpp">
+      <Filter>Source Files\dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\DataViewProxy.cpp">
+      <Filter>Source Files\dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\dataview\Node.cpp">
+      <Filter>Source Files\dataview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\daemon\Daemon.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\daemon\detail\ModuleRegistry.cpp">
+      <Filter>Source Files\daemon\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\util\stream\ZlibStream.cpp">
+      <Filter>Source Files\stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\util\Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\Name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\RefenceFromThis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\ArchiveBuffer.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\ArchiveError.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BasicIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BasicOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BigEndianBinaryIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BigEndianBinaryOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BinaryIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\BinaryOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\ConsoleIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\ConsoleOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\JsonOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\LittleEndianBinaryIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\LittleEndianBinaryOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\NetBinaryIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\NetBinaryOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\StreamIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\StreamOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\TextIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\TextOArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\archive\XmlIArchive.h">
+      <Filter>Header Files\archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Array.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Collection.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\ErrorCode.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\NumberBits24.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\NVPair.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Serialization.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\SplitFree.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\SplitMember.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\Uuid.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\VariableNumber.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\deque.h">
+      <Filter>Header Files\serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\list.h">
+      <Filter>Header Files\serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\map.h">
+      <Filter>Header Files\serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\set.h">
+      <Filter>Header Files\serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\string.h">
+      <Filter>Header Files\serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\utility.h">
+      <Filter>Header Files\serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\serialization\stl\vector.h">
+      <Filter>Header Files\serialization\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpChunkedSocket.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpClient.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpError.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpFieldConnection.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpFieldRange.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpHead.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpPacket.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpProxy.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpProxyManager.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpRequest.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpResponse.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpSocket.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpStringField.h">
+      <Filter>Header Files\protocol\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\Base64.h">
+      <Filter>Header Files\protocol\pptv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\CheckSum.h">
+      <Filter>Header Files\protocol\pptv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\TimeKey.h">
+      <Filter>Header Files\protocol\pptv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\Url.h">
+      <Filter>Header Files\protocol\pptv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspError.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspFieldConnection.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspFieldRange.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspHead.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspPacket.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspRequest.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspResponse.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspServer.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspServerManager.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspSocket.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspStringField.h">
+      <Filter>Header Files\protocol\rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsError.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsHead.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsPacket.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsRequest.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsResponse.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsServer.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsServerManager.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsSocket.h">
+      <Filter>Header Files\protocol\mms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\StlStream.h">
+      <Filter>Header Files\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\StreamTransfer.h">
+      <Filter>Header Files\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\stream\detail\transfer_buffers.h">
+      <Filter>Header Files\stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\smart_ptr\RefenceFromThis.h">
+      <Filter>Header Files\smart_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BufferCopy.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\Buffers.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersBufferIterator.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersByteIterator.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersCompare.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersFind.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BufferSize.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersPosition.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\CycleBuffers.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\SnapshotBuffer.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\StlBuffer.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\buffers\SubBuffers.h">
+      <Filter>Header Files\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\CatalogNode.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\CatalogReg.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\Data.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataNode.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataSerialize.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataView.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataViewError.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\DataViewProxy.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\Node.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\NodeWrap.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\PacketDataView.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\Table.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\WrapData.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\dataview\WrapObject.h">
+      <Filter>Header Files\dataview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\Daemon.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\Module.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\detail\Module.h">
+      <Filter>Header Files\daemon\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\detail\ModuleId.h">
+      <Filter>Header Files\daemon\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\detail\ModuleRegistry.h">
+      <Filter>Header Files\daemon\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\util\daemon\impl\Daemon.h">
+      <Filter>Header Files\daemon\impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

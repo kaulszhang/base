@@ -1,0 +1,11 @@
+// windows.h
+
+#pragma once
+
+#include <..\..\VC\include\cstdlib>
+
+_STD_BEGIN
+
+using ::getenv;
+
+_STD_END

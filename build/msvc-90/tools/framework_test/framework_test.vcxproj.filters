@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{1cf4fee1-5a99-4896-808f-8a870b20191c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory">
+      <UniqueIdentifier>{90241304-b71c-47e3-9260-c337885939f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\configure">
+      <UniqueIdentifier>{fdf11d74-c1a3-427a-be03-167d760ac672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\string">
+      <UniqueIdentifier>{1499785f-c18f-4f0a-91b5-13f7db7cb582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\container">
+      <UniqueIdentifier>{572960ba-371b-4570-abb4-d4d675a1e6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\process">
+      <UniqueIdentifier>{2caaa615-dae6-4e55-8092-2ed7e66fd25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logger">
+      <UniqueIdentifier>{16a356f0-6dbb-42b3-8365-53fb733c9cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{b9cbc9db-8459-48ef-ac8f-603f45ed94e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\timer">
+      <UniqueIdentifier>{1adf6f62-86f4-45e2-a35c-b466d62c7cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{8a196ff5-964b-4a38-accd-d92414ee1626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\system\BytesOrder.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\system\ErrorCode.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\system\Version.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\memory\BigFirstPool.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\memory\BigFixedPool.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\memory\BigFixedPoolEx.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\memory\ObjectAllocator.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\memory\SharedMemory.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\memory\SmallFixedPool.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\configure\Config.cpp">
+      <Filter>Source Files\configure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\string\Algorithm.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\string\Base64.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\string\Format.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\string\Parse.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\string\Url.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\string\Uuid.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\container\Array.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\container\Cycle.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\container\List.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\container\Ordered.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\container\OrderedUnidirList.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\container\UindirList.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\process\Process.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\logger\Logger.cpp">
+      <Filter>Source Files\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\network\Endpoint.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\network\Interface.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\network\Resolver.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\network\TcpSocket.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\timer\TickCounter.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\timer\Timer.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\framework_test\filesystem\Path.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tools\framework_test\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

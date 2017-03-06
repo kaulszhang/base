@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2a670498-0f14-48e0-aeda-d32723f214de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\configure">
+      <UniqueIdentifier>{3f49a923-bf17-4add-a0b9-7468a11d57c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\filesystem">
+      <UniqueIdentifier>{145ccbe7-f0a4-4121-814e-7f06c34515e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\thread">
+      <UniqueIdentifier>{ee338305-3995-4613-81e4-b5d94fbe4f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logger">
+      <UniqueIdentifier>{2f907226-99de-45a3-8559-6afde60ef65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\memory">
+      <UniqueIdentifier>{487070d0-eaa9-4b60-842c-1efb46888186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system">
+      <UniqueIdentifier>{e64f1d89-8dbc-48a9-91fc-6aa6d539e1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\container">
+      <UniqueIdentifier>{8d8e74f8-df57-46ff-a176-06256c1adf41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\container\detail">
+      <UniqueIdentifier>{5ea04bea-ed70-4dad-bf3c-1f353d3c5239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generic">
+      <UniqueIdentifier>{8551eab9-9772-4036-a563-44119c57b8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\string">
+      <UniqueIdentifier>{dda94e32-6151-47ff-83a4-45a03dc32626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\string\detail">
+      <UniqueIdentifier>{0ff14ab8-163a-4c11-859e-c85deeead436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network">
+      <UniqueIdentifier>{67fb8086-82ee-44b1-8cc3-68323c5edf96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network\detail">
+      <UniqueIdentifier>{f0b3c242-9191-4f8a-8c5e-805220973268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\debuging">
+      <UniqueIdentifier>{68e40667-ec9b-4437-a675-aa0c1f70a497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\debuging\detail">
+      <UniqueIdentifier>{ce976315-9dd4-4cfc-8178-0473aa21bce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\process">
+      <UniqueIdentifier>{3a7f2e65-dbb3-4cb7-b24e-628f9c35c4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\process\detail">
+      <UniqueIdentifier>{4e521068-6ada-4c9a-98ee-e26a2f90e811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\timer">
+      <UniqueIdentifier>{d125a8aa-9173-490a-9fa9-aa20f0dd68ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\library">
+      <UniqueIdentifier>{fdbf8840-c40d-410c-a128-834f7b2cdc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{388bc4f3-3a03-445b-baf2-e2013cfe086b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logger">
+      <UniqueIdentifier>{04ed73b5-1b66-45fb-9829-f281ab0b9ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory">
+      <UniqueIdentifier>{dc36f9e6-b0bd-417d-bd09-de39788267dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory\detail">
+      <UniqueIdentifier>{9c36c6b6-837c-4851-922c-ad7999a3d0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\string">
+      <UniqueIdentifier>{748a5e28-75ca-4df6-8a97-65a56f1e716b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\configure">
+      <UniqueIdentifier>{a1f58a6b-67a9-40d0-b68b-bc42a610eb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\debuging">
+      <UniqueIdentifier>{934537f6-a010-465c-b230-c734478bc77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\process">
+      <UniqueIdentifier>{67a4b8c4-3db7-412a-8cd6-0fdffe899860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\timer">
+      <UniqueIdentifier>{63911e4a-c528-4e47-bc7f-667043c30794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{6275dc22-2804-445d-99f0-d837050eb61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{69936fcb-995c-4fd4-a607-991e9979faf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\library">
+      <UniqueIdentifier>{f4398696-cdcd-44b6-a010-fee8ca596968}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\framework\Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\Name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\TestHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\configure\Config.h">
+      <Filter>Header Files\configure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\configure\ConfigItem.h">
+      <Filter>Header Files\configure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\configure\Profile.h">
+      <Filter>Header Files\configure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\filesystem\Path.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\filesystem\Symlink.h">
+      <Filter>Header Files\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\MessageQueue.h">
+      <Filter>Header Files\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\NullLock.h">
+      <Filter>Header Files\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\Logger.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerFormatRecord.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerListRecord.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerParam.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerRecord.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerSection.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerShareMemStream.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerStreamRecord.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\logger\LogMsgStream.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\AWEMemoryPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\BigFirstPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\BigFixedPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\BigFixedPoolEx.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\BlockMemory.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\FixedPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPage.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPoolDebug.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPoolObject.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryReference.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\ObjectAllocator.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\PageMemoryPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\PrivateMemory.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemory.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemoryIdPointer.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemoryPointer.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemoryUidPointer.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\SmallFixedPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\SmallFixedPoolEx.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\memory\SmartPool.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\AutoName.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\AutoVersion.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\BytesOrder.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\ErrorCode.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\FileTag.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\LimitNumber.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\LogicError.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\NumberBits24.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\ScaleTransform.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\SharedErrorCode.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\VariableNumber.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\system\Version.h">
+      <Filter>Header Files\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\Array.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\Cycle.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\Iterator.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\List.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\Ordered.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\OrderedUnidirList.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\UnidirList.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\detail\b_tree_hook.h">
+      <Filter>Header Files\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\detail\bidir_hook.h">
+      <Filter>Header Files\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\detail\hook.h">
+      <Filter>Header Files\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\detail\identity.h">
+      <Filter>Header Files\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\detail\ordered.h">
+      <Filter>Header Files\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\detail\rb_tree_hook.h">
+      <Filter>Header Files\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\container\detail\unidir_hook.h">
+      <Filter>Header Files\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\generic\NativePointer.h">
+      <Filter>Header Files\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\generic\Pointer.h">
+      <Filter>Header Files\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\generic\RawPointer.h">
+      <Filter>Header Files\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Algorithm.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Base16.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Base64.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Compress.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Convert.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Format.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\FormatStl.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Join.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Md5.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Parse.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\ParseStl.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Slice.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\StringToken.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Url.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\string\Uuid.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\string\detail\md5.h">
+      <Filter>Header Files\string\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\string\detail\sha1.h">
+      <Filter>Header Files\string\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\string\detail\uuid.h">
+      <Filter>Header Files\string\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\Acceptor.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\AsioHandlerHelper.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\Connector.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\Endpoint.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\Interface.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\NetName.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\Resolver.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\ResolverIterator.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\ResolverService.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\Statistics.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\network\TcpSocket.h">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\network\detail\HostCache.h">
+      <Filter>Header Files\network\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\network\detail\ServiceCache.h">
+      <Filter>Header Files\network\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\debuging\BackTrace.h">
+      <Filter>Header Files\debuging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\debuging\CoreDump.h">
+      <Filter>Header Files\debuging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\debuging\StackTrace.h">
+      <Filter>Header Files\debuging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\debuging\detail\SymbolBuffer.h">
+      <Filter>Header Files\debuging\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\Condition.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\Environments.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\Error.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\FileMutex.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\MessageQueue.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\Mutex.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\NamedMutex.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\Process.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\SignalHandler.h">
+      <Filter>Header Files\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\detail\GlobalFileSemaphore.h">
+      <Filter>Header Files\process\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\process\detail\GlobalSemaphore.h">
+      <Filter>Header Files\process\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\AsioTimerManager.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\ClockTime.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\TickCounter.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\Ticker.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\TickTimerManager.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\TimeConvert.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\TimeCounter.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\Timer.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\TimerQueue.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\timer\TimeTraits.h">
+      <Filter>Header Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\library\Library.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\PoolObject.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryFile.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryImpl.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryPosix.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryPrivate.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemorySystemV.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryWindows.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryWinFile.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SymbolBuffer.h">
+      <Filter>Source Files\memory\detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\framework\string\detail\sha1.i">
+      <Filter>Header Files\string\detail</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\framework\string\detail\uuid.c">
+      <Filter>Header Files\string\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\Framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\Version2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\system\ErrorCode.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\system\FileTag.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\system\Version.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\logger\Logger.cpp">
+      <Filter>Source Files\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\memory\AWEMemoryPool.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\memory\MemoryPage.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\memory\MemoryPool.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\memory\MemoryPoolDebug.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\memory\PageMemoryPool.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\memory\PrivateMemory.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\memory\SharedMemory.cpp">
+      <Filter>Source Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Algorithm.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Base16.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Base64.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Compress.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Convert.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Md5.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\StringToken.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Url.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\string\Uuid.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\configure\Config.cpp">
+      <Filter>Source Files\configure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\configure\Profile.cpp">
+      <Filter>Source Files\configure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\debuging\BackTrace.cpp">
+      <Filter>Source Files\debuging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\debuging\CoreDump.cpp">
+      <Filter>Source Files\debuging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\debuging\StackTrace.cpp">
+      <Filter>Source Files\debuging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\process\Environments.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\process\FileMutex.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\process\MessageQueue.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\process\Process.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\process\SignalHandler.cpp">
+      <Filter>Source Files\process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\timer\AsioTimerManager.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\timer\ClockTime.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\timer\TickCounter.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\timer\TickTimerManager.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\timer\TimeConvert.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\timer\Timer.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\timer\TimerQueue.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\filesystem\Path.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\filesystem\Symlink.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\network\Endpoint.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\network\Interface.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\network\NetName.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\network\ResolverService.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\network\TcpSocket.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\library\Library.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

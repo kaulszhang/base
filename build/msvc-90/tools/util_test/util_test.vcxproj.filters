@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\archive">
+      <UniqueIdentifier>{730d0d52-2164-4b69-94bf-241ec752eb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\serialization">
+      <UniqueIdentifier>{4f23f31b-eafb-424e-bd57-296b6c761fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protocol">
+      <UniqueIdentifier>{75b12ce9-16f1-4e07-b0e4-22775e447e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stream">
+      <UniqueIdentifier>{7a7eef5c-ab2f-4905-8863-539cb39960d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\buffers">
+      <UniqueIdentifier>{8838f444-e5dc-4a4a-8c75-b2236aebbe69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\smart_ptr">
+      <UniqueIdentifier>{4f9764ca-1a5b-449d-be7a-8ed729f2b65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\daemon">
+      <UniqueIdentifier>{3752eb29-46e1-4bcf-ae10-34d44ae6b8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\archive\Archive.cpp">
+      <Filter>Source Files\archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\serialization\Serialization.cpp">
+      <Filter>Source Files\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\protocol\HttpClient.cpp">
+      <Filter>Source Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\protocol\HttpProxy.cpp">
+      <Filter>Source Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\stream\StreamTransfer.cpp">
+      <Filter>Source Files\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\stream\TransferBuffers.cpp">
+      <Filter>Source Files\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\buffers\CycleBuffers.cpp">
+      <Filter>Source Files\buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\smart_ptr\RefenceFromThis.cpp">
+      <Filter>Source Files\smart_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tools\util_test\daemon\Module.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tools\util_test\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

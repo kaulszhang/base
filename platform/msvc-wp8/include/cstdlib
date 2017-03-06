@@ -1,0 +1,11 @@
+// windows.h
+
+#pragma once
+
+#include <..\..\WP80\include\cstdlib>
+
+_STD_BEGIN
+
+using cex::getenv;
+
+_STD_END

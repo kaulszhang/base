@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\util\archive\ArchiveBuffer.h" />
+    <ClInclude Include="..\..\..\include\util\archive\ArchiveError.h" />
+    <ClInclude Include="..\..\..\include\util\archive\BasicIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\BasicOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\BigEndianBinaryIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\BigEndianBinaryOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\BinaryIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\BinaryOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\ConsoleIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\ConsoleOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\JsonOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\LittleEndianBinaryIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\LittleEndianBinaryOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\NetBinaryIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\NetBinaryOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\StreamIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\StreamOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\TextIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\TextOArchive.h" />
+    <ClInclude Include="..\..\..\include\util\archive\XmlIArchive.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\BufferCopy.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\Buffers.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersBufferIterator.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersByteIterator.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersCompare.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersFind.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\BufferSize.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\BuffersPosition.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\CycleBuffers.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\SnapshotBuffer.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\StlBuffer.h" />
+    <ClInclude Include="..\..\..\include\util\buffers\SubBuffers.h" />
+    <ClInclude Include="..\..\..\include\util\daemon\Daemon.h" />
+    <ClInclude Include="..\..\..\include\util\daemon\detail\Module.h" />
+    <ClInclude Include="..\..\..\include\util\daemon\detail\ModuleId.h" />
+    <ClInclude Include="..\..\..\include\util\daemon\detail\ModuleRegistry.h" />
+    <ClInclude Include="..\..\..\include\util\daemon\impl\Daemon.h" />
+    <ClInclude Include="..\..\..\include\util\daemon\Module.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\CatalogNode.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\CatalogReg.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\Data.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\DataNode.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\DataSerialize.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\DataView.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\DataViewError.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\DataViewProxy.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\Node.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\NodeWrap.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\PacketDataView.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\Table.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\WrapData.h" />
+    <ClInclude Include="..\..\..\include\util\dataview\WrapObject.h" />
+    <ClInclude Include="..\..\..\include\util\Define.h" />
+    <ClInclude Include="..\..\..\include\util\Name.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpChunkedSocket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpClient.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpError.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpFieldConnection.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpFieldRange.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpHead.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpPacket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpProxy.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpProxyManager.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpRequest.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpResponse.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpSocket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\http\HttpStringField.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\Message.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\Message.hpp" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageBase.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageData.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageDefine.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageHelper.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageParser.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageSocket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageSocket.hpp" />
+    <ClInclude Include="..\..\..\include\util\protocol\MessageTraits.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsError.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsHead.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsPacket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsRequest.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsResponse.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsServer.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsServerManager.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\mms\MmsSocket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\Base64.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\CheckSum.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\TimeKey.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\pptv\Url.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RmtpAmfType.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpChunkHeader.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpChunkMessage.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpChunkParser.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpClient.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpError.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpHandshake.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessage.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessage.hpp" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageContext.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageData.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageDataCommand.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageDataData.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageDataProtocolControl.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageDataSharedObject.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageDataUserControl.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageHelper.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageParser.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpMessageTraits.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpSocket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpSocket.hpp" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtmp\RtmpStreamBuffer.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspError.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspFieldConnection.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspFieldRange.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspHead.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspPacket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspRequest.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspResponse.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspServer.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspServerManager.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspSocket.h" />
+    <ClInclude Include="..\..\..\include\util\protocol\rtsp\RtspStringField.h" />
+    <ClInclude Include="..\..\..\include\util\RefenceFromThis.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\Array.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\Collection.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\ErrorCode.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\NumberBits24.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\NVPair.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\Serialization.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\SplitFree.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\SplitMember.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\stl\deque.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\stl\list.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\stl\map.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\stl\set.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\stl\string.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\stl\utility.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\stl\vector.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\Uuid.h" />
+    <ClInclude Include="..\..\..\include\util\serialization\VariableNumber.h" />
+    <ClInclude Include="..\..\..\include\util\smart_ptr\RefenceFromThis.h" />
+    <ClInclude Include="..\..\..\include\util\stream\detail\transfer_buffers.h" />
+    <ClInclude Include="..\..\..\include\util\stream\StlStream.h" />
+    <ClInclude Include="..\..\..\include\util\stream\StreamTransfer.h" />
+    <ClInclude Include="..\..\..\include\util\Util.h" />
+    <ClInclude Include="..\..\..\include\util\Version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\util\daemon\Daemon.cpp" />
+    <ClCompile Include="..\..\..\src\util\daemon\detail\ModuleRegistry.cpp" />
+    <ClCompile Include="..\..\..\src\util\dataview\CatalogNode.cpp" />
+    <ClCompile Include="..\..\..\src\util\dataview\CatalogReg.cpp" />
+    <ClCompile Include="..\..\..\src\util\dataview\DataView.cpp" />
+    <ClCompile Include="..\..\..\src\util\dataview\DataViewProxy.cpp" />
+    <ClCompile Include="..\..\..\src\util\dataview\Node.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpClient.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpHead.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpPacket.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpProxy.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\http\HttpProxy2.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\MessageBase.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\MessageSocket.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\mms\MmsHead.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\mms\MmsPacket.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\mms\MmsServer.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\pptv\Base64.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\pptv\TimeKey.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\pptv\Url.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtmp\RtmpChunkHeader.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtmp\RtmpChunkParser.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtmp\RtmpClient.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtmp\RtmpHandshake.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtmp\RtmpMessageContext.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtmp\RtmpMessageParser.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtmp\RtmpSocket.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtsp\RtspHead.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtsp\RtspPacket.cpp" />
+    <ClCompile Include="..\..\..\src\util\protocol\rtsp\RtspServer.cpp" />
+    <ClCompile Include="..\..\..\src\util\stream\Sink.cpp" />
+    <ClCompile Include="..\..\..\src\util\stream\Source.cpp" />
+    <ClCompile Include="..\..\..\src\util\stream\ZlibStream.cpp" />
+    <ClCompile Include="..\..\..\src\util\Util.cpp" />
+    <ClCompile Include="..\..\..\src\util\Version.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E47AD146-45D4-4715-8904-E9AE95C7063C}</ProjectGuid>
+    <ProjectName>util</ProjectName>
+    <RootNamespace>util_1</RootNamespace>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;..;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);../../../platform/msvc-wp8/include;../../../platform/msvc-wp8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BOOST_USER_CONFIG=&lt;boost_config.h&gt;;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)\libutil-win32-msvc90-mt-sgd-1.2.1.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;..;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);../../../platform/msvc-wp8/include;../../../platform/msvc-wp8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BOOST_USER_CONFIG=&lt;boost_config.h&gt;;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;..;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);../../../platform/msvc-wp8/include;../../../platform/msvc-wp8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BOOST_USER_CONFIG=&lt;boost_config.h&gt;;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;..;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);../../../platform/msvc-wp8/include;../../../platform/msvc-wp8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BOOST_USER_CONFIG=&lt;boost_config.h&gt;;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsPhone\v$(TargetPlatformVersion)\Microsoft.Cpp.WindowsPhone.$(TargetPlatformVersion).targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

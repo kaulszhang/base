@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EA09AA3A-428B-4EEA-8B03-6B55A6F6EAD7}</ProjectGuid>
+    <RootNamespace>vc9</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\src;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;FRAMEWORK_USER_CONFIG=&lt;framework_config.h&gt;;FRAMEWORK_WITH_LIB_ICONV;FRAMEWORK_WITH_LIB_SSL;FRAMEWORK_WITH_LIB_UUID;FRAMEWORK_NETWORK_WITH_SERVICE_CACHE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>framework\Framework.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libframework-win32-msvc90-mt-sgd-1.2.1.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\src;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;FRAMEWORK_USER_CONFIG=&lt;framework_config.h&gt;;FRAMEWORK_WITH_LIB_UUID;FRAMEWORK_WITH_LIB_ICONV;FRAMEWORK_NETWORK_WITH_SERVICE_CACHE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>framework/Framework.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libframework-win32-msvc90-mt-s-1.2.1.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\framework\Define.h" />
+    <ClInclude Include="..\..\..\include\framework\Framework.h" />
+    <ClInclude Include="..\..\..\include\framework\Name.h" />
+    <ClInclude Include="..\..\..\include\framework\TestHeader.h" />
+    <ClInclude Include="..\..\..\include\framework\Version.h" />
+    <ClInclude Include="..\..\..\include\framework\configure\Config.h" />
+    <ClInclude Include="..\..\..\include\framework\configure\ConfigItem.h" />
+    <ClInclude Include="..\..\..\include\framework\configure\Profile.h" />
+    <ClInclude Include="..\..\..\include\framework\filesystem\Path.h" />
+    <ClInclude Include="..\..\..\include\framework\filesystem\Symlink.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\MessageQueue.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\NullLock.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\Logger.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerFormatRecord.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerListRecord.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerParam.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerRecord.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerSection.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerShareMemStream.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LoggerStreamRecord.h" />
+    <ClInclude Include="..\..\..\include\framework\logger\LogMsgStream.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\AWEMemoryPool.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\BigFirstPool.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\BigFixedPool.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\BigFixedPoolEx.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\BlockMemory.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\FixedPool.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryInfo.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPage.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPool.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPoolDebug.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryPoolObject.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\MemoryReference.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\ObjectAllocator.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\PageMemoryPool.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\PrivateMemory.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemory.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemoryIdPointer.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemoryPointer.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\SharedMemoryUidPointer.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\SmallFixedPool.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\SmallFixedPoolEx.h" />
+    <ClInclude Include="..\..\..\include\framework\memory\SmartPool.h" />
+    <ClInclude Include="..\..\..\include\framework\system\AutoName.h" />
+    <ClInclude Include="..\..\..\include\framework\system\AutoVersion.h" />
+    <ClInclude Include="..\..\..\include\framework\system\BytesOrder.h" />
+    <ClInclude Include="..\..\..\include\framework\system\ErrorCode.h" />
+    <ClInclude Include="..\..\..\include\framework\system\FileTag.h" />
+    <ClInclude Include="..\..\..\include\framework\system\LimitNumber.h" />
+    <ClInclude Include="..\..\..\include\framework\system\LogicError.h" />
+    <ClInclude Include="..\..\..\include\framework\system\NumberBits24.h" />
+    <ClInclude Include="..\..\..\include\framework\system\ScaleTransform.h" />
+    <ClInclude Include="..\..\..\include\framework\system\SharedErrorCode.h" />
+    <ClInclude Include="..\..\..\include\framework\system\VariableNumber.h" />
+    <ClInclude Include="..\..\..\include\framework\system\Version.h" />
+    <ClInclude Include="..\..\..\include\framework\container\Array.h" />
+    <ClInclude Include="..\..\..\include\framework\container\Cycle.h" />
+    <ClInclude Include="..\..\..\include\framework\container\Iterator.h" />
+    <ClInclude Include="..\..\..\include\framework\container\List.h" />
+    <ClInclude Include="..\..\..\include\framework\container\Ordered.h" />
+    <ClInclude Include="..\..\..\include\framework\container\OrderedUnidirList.h" />
+    <ClInclude Include="..\..\..\include\framework\container\UnidirList.h" />
+    <ClInclude Include="..\..\..\include\framework\container\detail\b_tree_hook.h" />
+    <ClInclude Include="..\..\..\include\framework\container\detail\bidir_hook.h" />
+    <ClInclude Include="..\..\..\include\framework\container\detail\hook.h" />
+    <ClInclude Include="..\..\..\include\framework\container\detail\identity.h" />
+    <ClInclude Include="..\..\..\include\framework\container\detail\ordered.h" />
+    <ClInclude Include="..\..\..\include\framework\container\detail\rb_tree_hook.h" />
+    <ClInclude Include="..\..\..\include\framework\container\detail\unidir_hook.h" />
+    <ClInclude Include="..\..\..\include\framework\generic\NativePointer.h" />
+    <ClInclude Include="..\..\..\include\framework\generic\Pointer.h" />
+    <ClInclude Include="..\..\..\include\framework\generic\RawPointer.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Algorithm.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Base16.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Base64.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Compress.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Convert.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Format.h" />
+    <ClInclude Include="..\..\..\include\framework\string\FormatStl.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Hmac.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Hmac.hpp" />
+    <ClInclude Include="..\..\..\include\framework\string\Join.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Md5.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Parse.h" />
+    <ClInclude Include="..\..\..\include\framework\string\ParseStl.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Sha256.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Slice.h" />
+    <ClInclude Include="..\..\..\include\framework\string\StringToken.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Url.h" />
+    <ClInclude Include="..\..\..\include\framework\string\Uuid.h" />
+    <ClInclude Include="..\..\..\src\framework\string\detail\md5.h" />
+    <ClInclude Include="..\..\..\src\framework\string\detail\sha1.h" />
+    <ClInclude Include="..\..\..\src\framework\string\detail\uuid.h" />
+    <ClInclude Include="..\..\..\include\framework\network\Acceptor.h" />
+    <ClInclude Include="..\..\..\include\framework\network\AsioHandlerHelper.h" />
+    <ClInclude Include="..\..\..\include\framework\network\Connector.h" />
+    <ClInclude Include="..\..\..\include\framework\network\Endpoint.h" />
+    <ClInclude Include="..\..\..\include\framework\network\Interface.h" />
+    <ClInclude Include="..\..\..\include\framework\network\NetName.h" />
+    <ClInclude Include="..\..\..\include\framework\network\Resolver.h" />
+    <ClInclude Include="..\..\..\include\framework\network\ResolverIterator.h" />
+    <ClInclude Include="..\..\..\include\framework\network\ResolverService.h" />
+    <ClInclude Include="..\..\..\include\framework\network\Statistics.h" />
+    <ClInclude Include="..\..\..\include\framework\network\TcpSocket.h" />
+    <ClInclude Include="..\..\..\src\framework\network\detail\HostCache.h" />
+    <ClInclude Include="..\..\..\src\framework\network\detail\ServiceCache.h" />
+    <ClInclude Include="..\..\..\include\framework\debuging\BackTrace.h" />
+    <ClInclude Include="..\..\..\include\framework\debuging\CoreDump.h" />
+    <ClInclude Include="..\..\..\include\framework\debuging\StackTrace.h" />
+    <ClInclude Include="..\..\..\src\framework\debuging\detail\SymbolBuffer.h" />
+    <ClInclude Include="..\..\..\include\framework\process\Condition.h" />
+    <ClInclude Include="..\..\..\include\framework\process\Environments.h" />
+    <ClInclude Include="..\..\..\include\framework\process\Error.h" />
+    <ClInclude Include="..\..\..\include\framework\process\FileMutex.h" />
+    <ClInclude Include="..\..\..\include\framework\process\MessageQueue.h" />
+    <ClInclude Include="..\..\..\include\framework\process\Mutex.h" />
+    <ClInclude Include="..\..\..\include\framework\process\NamedMutex.h" />
+    <ClInclude Include="..\..\..\include\framework\process\Process.h" />
+    <ClInclude Include="..\..\..\include\framework\process\SignalHandler.h" />
+    <ClInclude Include="..\..\..\include\framework\process\detail\GlobalFileSemaphore.h" />
+    <ClInclude Include="..\..\..\include\framework\process\detail\GlobalSemaphore.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\AsioTimerManager.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\ClockTime.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\TickCounter.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\Ticker.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\TickTimerManager.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\TimeConvert.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\TimeCounter.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\Timer.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\TimerQueue.h" />
+    <ClInclude Include="..\..\..\include\framework\timer\TimeTraits.h" />
+    <ClInclude Include="..\..\..\include\framework\library\Library.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\PoolObject.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryFile.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryImpl.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryPosix.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryPrivate.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemorySystemV.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryWindows.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SharedMemoryWinFile.h" />
+    <ClInclude Include="..\..\..\src\framework\memory\detail\SymbolBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\framework\string\detail\sha1.i" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\framework\string\detail\uuid.c" />
+    <ClCompile Include="..\..\..\src\framework\Framework.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">framework\Framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\Version2.cpp" />
+    <ClCompile Include="..\..\..\src\framework\system\ErrorCode.cpp" />
+    <ClCompile Include="..\..\..\src\framework\system\FileTag.cpp" />
+    <ClCompile Include="..\..\..\src\framework\system\Version.cpp" />
+    <ClCompile Include="..\..\..\src\framework\logger\Logger.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\AWEMemoryPool.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\MemoryInfo.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\MemoryPage.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\MemoryPool.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\MemoryPoolDebug.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\PageMemoryPool.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\PrivateMemory.cpp" />
+    <ClCompile Include="..\..\..\src\framework\memory\SharedMemory.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Algorithm.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Base16.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Base64.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Compress.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Convert.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Md5.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Sha256.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\StringToken.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Url.cpp" />
+    <ClCompile Include="..\..\..\src\framework\string\Uuid.cpp" />
+    <ClCompile Include="..\..\..\src\framework\configure\Config.cpp" />
+    <ClCompile Include="..\..\..\src\framework\configure\Profile.cpp" />
+    <ClCompile Include="..\..\..\src\framework\debuging\BackTrace.cpp" />
+    <ClCompile Include="..\..\..\src\framework\debuging\CoreDump.cpp" />
+    <ClCompile Include="..\..\..\src\framework\debuging\StackTrace.cpp" />
+    <ClCompile Include="..\..\..\src\framework\process\Environments.cpp" />
+    <ClCompile Include="..\..\..\src\framework\process\FileMutex.cpp" />
+    <ClCompile Include="..\..\..\src\framework\process\MessageQueue.cpp" />
+    <ClCompile Include="..\..\..\src\framework\process\Process.cpp" />
+    <ClCompile Include="..\..\..\src\framework\process\SignalHandler.cpp" />
+    <ClCompile Include="..\..\..\src\framework\timer\AsioTimerManager.cpp" />
+    <ClCompile Include="..\..\..\src\framework\timer\ClockTime.cpp" />
+    <ClCompile Include="..\..\..\src\framework\timer\TickCounter.cpp" />
+    <ClCompile Include="..\..\..\src\framework\timer\TickTimerManager.cpp" />
+    <ClCompile Include="..\..\..\src\framework\timer\TimeConvert.cpp" />
+    <ClCompile Include="..\..\..\src\framework\timer\Timer.cpp" />
+    <ClCompile Include="..\..\..\src\framework\timer\TimerQueue.cpp" />
+    <ClCompile Include="..\..\..\src\framework\filesystem\Path.cpp" />
+    <ClCompile Include="..\..\..\src\framework\filesystem\Symlink.cpp" />
+    <ClCompile Include="..\..\..\src\framework\network\Endpoint.cpp" />
+    <ClCompile Include="..\..\..\src\framework\network\Interface.cpp" />
+    <ClCompile Include="..\..\..\src\framework\network\NetName.cpp" />
+    <ClCompile Include="..\..\..\src\framework\network\ResolverService.cpp" />
+    <ClCompile Include="..\..\..\src\framework\network\TcpSocket.cpp" />
+    <ClCompile Include="..\..\..\src\framework\library\Library.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

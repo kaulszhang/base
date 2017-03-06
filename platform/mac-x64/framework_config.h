@@ -1,0 +1,9 @@
+// := framework_config.h
+
+#define FRAMEWORK_NETWORK_WITH_SERVICE_CACHE
+
+#define FRAMEWORK_WITH_LIB_ICONV
+
+#define FRAMEWORK_NO_SYSTEM_V_IPC
+
+#define FRAMEWORK_NO_POSIX_IPC
